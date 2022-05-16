@@ -7,6 +7,7 @@ import FormTodo from "./comonents/FromTodo";
 import FormTodo1 from "./comonents/FromTodo1";
 import FormTodo2 from "./comonents/FromTodo2";
 import axios from "axios";
+import Header from "./comonents/Header";
 
 
 function App() {
@@ -100,6 +101,7 @@ function App() {
 
   return (
     <div className="app">
+      <Header/>
     <div className="container">
      <div className="row justify-content-between">
        
